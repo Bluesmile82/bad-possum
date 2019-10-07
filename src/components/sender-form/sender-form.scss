@@ -1,0 +1,106 @@
+@import '../../styles/settings.scss';
+
+.subscription-form input {
+  display: inline-block;
+  padding: 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: $grey;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.checkbox_wrapper {
+  display: inline-block;
+  padding: 4px;
+  width: 100%;
+}
+.subscription-form input.checkbox_type, .subscription-form .checkbox_label {
+  width: auto;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.subscription-form .checkbox_label {
+  display: inline-block;
+  line-height: 18px;
+  margin-left: 4px;
+  font-size: 12px;
+  font-family: arial;
+  color: #29484f;
+}
+
+.subscription-form input {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius:  3px;
+  -webkit-border-radius:  3px;
+  -moz-border-radius:  3px;
+}
+
+.subscription-form-fields {
+  margin-top: 15px;
+}
+
+.subscription-form {
+  width: 100%;
+  text-align: center;
+  border: 0px solid #a3a3a3;
+  border-radius: 0px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  @media screen and (min-width: 740px) {
+    width: 45%;
+  }
+}
+
+.subscription-form h4 {
+  font-family: arial;
+  color: #565656;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.subscription-thank-you {
+  font-family: arial;
+  color: #29484f;
+  font-size: 12px;
+}
+
+.subscription-form-content {
+  font-family: arial;
+  color: #29484f;
+  font-size: 12px;
+  text-align: left;
+}
+
+.subscription-form button {
+  margin-top: 5px;
+  border-radius: 0px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  border: none;
+  width: 100%;
+  color: #ffffff;
+  background-color: $primary;
+  font-size: 20px;
+  font-family: arial;
+  cursor: pointer;
+}
+
+.sender-sub-main {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.sender-sub-inner {
+  display: table-cell;
+  vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+@import '../../styles/settings.scss';
+
+.c-section {
+  color: white;
+  background-color: black;
+  padding: 40px 0;
+
+  &.color-white {
+    background-color: white;
+  }
+
+  &:nth-child(even) {
+    background-color: $primary;
+  }
+}
