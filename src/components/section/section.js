@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import "./section.scss"
-import cx from 'classnames'
+import cx from "classnames"
 
 const Section = ({ children, color }) => {
   return (

@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
@@ -32,6 +31,7 @@ const IndexPage = () => (
       <div className="video-padding">
         <div className="video-container">
           <iframe
+            title="bad possum video"
             className="video"
             width="560"
             height="315"
@@ -45,6 +45,7 @@ const IndexPage = () => (
       <div className="video-padding">
         <div className="video-container">
           <iframe
+            title="bad possum video osi"
             className="video"
             width="560"
             height="315"
