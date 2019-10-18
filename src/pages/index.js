@@ -127,7 +127,7 @@ const IndexPage = () => (
             ></textarea>
           </label>
           <button className="button white" type="submit">
-            Send
+            Enviar
           </button>
         </form>
       </div>
