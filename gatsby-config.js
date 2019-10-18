@@ -12,11 +12,20 @@ module.exports = {
       options: {
         fonts: [
           `Ubuntu\:700`,
-          `Open Sans\:300,400,400i,700` // you can also specify font weights and styles
+          `Open Sans\:300,400,400i,700`, // you can also specify font weights and styles
         ],
-        display: 'swap'
-      }
+        display: "swap",
+      },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`,
+      },
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {

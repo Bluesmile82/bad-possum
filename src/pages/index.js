@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Section from "../components/section/section"
 import SenderForm from "../components/sender-form/sender-form"
+import Concerts from "../components/concerts/concerts"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import './index.scss';
@@ -131,6 +132,9 @@ const IndexPage = () => (
           </button>
         </form>
       </div>
+    </Section>
+    <Section>
+      <Concerts />
     </Section>
   </Layout>
 )
