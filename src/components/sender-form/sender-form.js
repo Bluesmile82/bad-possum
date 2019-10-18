@@ -12,9 +12,9 @@ const SenderForm = () => (
             </div>
             <form id="sender-subscribe" action="https://app.sender.net/forms/sender_subscription/3898/93870c23" method="POST">
               <div className="subscription-form-fields" id="subscription-form-fields">
-                <input name="email" className="email_type" id="email" data-label="Email" placeholder="Email" required />
-                <input name="firstname" className="text_type" id="firstname" data-label="Nombre (Opcional)" placeholder="Nombre (Opcional)" />
-                <input name="lastname" className="text_type" id="lastname" data-label="Apellido (Opcional)" placeholder="Apellido (Opcional)" />
+                <input name="email" className="input email_type" id="email" data-label="Email" placeholder="Email" required />
+                <input name="firstname" className="input text_type" id="firstname" data-label="Nombre (Opcional)" placeholder="Nombre (Opcional)" />
+                <input name="lastname" className="input text_type" id="lastname" data-label="Apellido (Opcional)" placeholder="Apellido (Opcional)" />
               </div>
               <button type="submit" >Enviar</button>
             </form>

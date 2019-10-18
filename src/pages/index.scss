@@ -19,6 +19,14 @@
   }
 }
 
+.contact {
+  text-align: center;
+
+  @media screen and (min-width: 740px) {
+    width: 45%;
+  }
+}
+
 .name {
   font-family: $font-family-2;
 }

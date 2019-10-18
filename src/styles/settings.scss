@@ -1,4 +1,5 @@
 $black: #222;
+$white: #eee;
 $primary: #F1E0C7;
 $action: #EB5E55;
 $grey: #555;
@@ -64,4 +65,56 @@ h6 {
   margin-bottom: 1.45rem;
   font-weight: bold;
   font-size: 0.78405rem;
+}
+
+
+.button {
+  margin-top: 5px;
+  border-radius: 0px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  border: none;
+  width: 100%;
+  color: $white;
+  background-color: $action;
+  font-size: 20px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: $box-shadow;
+    background-color: lighten($action, 30%);
+  }
+
+  &.white {
+    color: $primary;
+    background-color: $action;
+    border: 2px solid $white;
+  }
+}
+
+.input {
+  display: inline-block;
+  padding: 4px;
+  font-size: 16px;
+  line-height: 18px;
+  color: $black;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-bottom: 10px;
+
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius:  3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+
+  .checkbox_type, .checkbox_label {
+    width: auto;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
