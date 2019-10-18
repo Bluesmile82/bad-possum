@@ -20,6 +20,19 @@
   font-family: $font-family-2;
 }
 
+.social-links {
+  text-align: right;
+
+  :not(:first-child) {
+    margin-left: 15px;
+  }
+
+  .social-link {
+    width: 50px;
+    border-radius: 15%;
+  }
+}
+
 .video-container {
   position: relative;
 	padding-bottom: 56.25%; /* 16:9 */

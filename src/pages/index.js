@@ -7,6 +7,8 @@ import SenderForm from "../components/sender-form/sender-form"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import './index.scss';
+import facebook from '../images/facebook.png';
+import insta from '../images/insta.jpeg';
 
 const IndexPage = () => (
   <Layout>
@@ -82,6 +84,22 @@ const IndexPage = () => (
           verá obligada a bailar al ritmo de este blues con tendencias rock y
           punk del que bebieron otros artistas, como The Black Keys.
         </p>
+        <div className="social-links">
+          <a
+            href="https://www.facebook.com/BadPossum"
+            target="_blank"
+            title="facebook link"
+          >
+            <img className="social-link" src={facebook} title="facebook link" />
+          </a>
+          <a
+            href="https://www.instagram.com/bad.possum/"
+            target="_blank"
+            title="instagram link"
+          >
+            <img className="social-link" src={insta} title="instagram link" />
+          </a>
+        </div>
       </div>
     </Section>
     <Section color="white">
