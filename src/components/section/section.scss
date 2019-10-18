@@ -10,6 +10,10 @@
     color: black;
   }
 
+  &.color-red {
+    background-color: $action;
+  }
+
   &.color-white {
     background-color: white;
   }

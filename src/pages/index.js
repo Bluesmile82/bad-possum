@@ -31,36 +31,41 @@ const IndexPage = () => (
       `)}
     />
     <Section>
-      <div className="video-padding">
-        <div className="video-container">
-          <iframe
-            title="bad possum video"
-            className="video"
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/CxuQhP9snrI?rel=0"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            Adding
-            allowfullscreen
-          ></iframe>
+      <div className="videos">
+        <div className="video-padding">
+          <div className="video-container">
+            <iframe
+              title="bad possum video"
+              className="video"
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/CxuQhP9snrI?rel=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+              Adding
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div className="video-padding">
+          <div className="video-container">
+            <iframe
+              title="bad possum video osi"
+              className="video"
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/xPAtSDn4BAE?rel=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+              Adding
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
-      <div className="video-padding">
-        <div className="video-container">
-          <iframe
-            title="bad possum video osi"
-            className="video"
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/xPAtSDn4BAE?rel=0"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            Adding
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
+    </Section>
+    <Section color="white">
+      <SenderForm />
     </Section>
     <Section color="brown">
       <div className="container">
@@ -101,9 +106,6 @@ const IndexPage = () => (
           </a>
         </div>
       </div>
-    </Section>
-    <Section color="white">
-      <SenderForm />
     </Section>
   </Layout>
 )

@@ -4,6 +4,8 @@ $action: #EB5E55;
 $grey: #555;
 $blue: #C9FBFF;
 
+$box-shadow: 0 1px 3px 0 rgba($black, .1), 0 1px 2px 0 rgba($black, .2);
+
 .container {
   margin: 0 auto;
   width: 77.5%;
@@ -13,8 +15,8 @@ $blue: #C9FBFF;
   display: inline;
 }
 
-$font-family-1: 'Playfair Display', serif;
-$font-family-2: 'Source Sans Pro', sans-serif;
+$font-family-1: 'Ubuntu', serif;
+$font-family-2: 'Open Sans', sans-serif;
 
 h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
