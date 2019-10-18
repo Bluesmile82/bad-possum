@@ -1,7 +1,23 @@
+@import '../styles/settings.scss';
+
 .video-padding {
   width: 50%;
   height: 40%;
   display: inline-block;
+}
+
+.hero {
+  border-radius: 15%;
+
+  width: 100%;
+  @media screen and (min-width: 760px) {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+.name {
+  font-family: $font-family-2;
 }
 
 .video-container {

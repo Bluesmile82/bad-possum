@@ -3,9 +3,9 @@
 .subscription-form input {
   display: inline-block;
   padding: 4px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 18px;
-  color: $grey;
+  color: $black;
   border: 1px solid #ccc;
   width: 100%;
   box-sizing: border-box;
@@ -29,12 +29,10 @@
   line-height: 18px;
   margin-left: 4px;
   font-size: 12px;
-  font-family: arial;
   color: #29484f;
 }
 
 .subscription-form input {
-  color: #000000;
   background-color: #ffffff;
   border: 1px solid #c4c4c4;
   border-radius:  3px;
@@ -60,22 +58,19 @@
 }
 
 .subscription-form h4 {
-  font-family: arial;
   color: #565656;
-  font-size: 20px;
+  font-size: 26px;
   margin-top: 0px;
 }
 
 .subscription-thank-you {
-  font-family: arial;
-  color: #29484f;
-  font-size: 12px;
+  color: $black;
+  font-size: 16px;
 }
 
 .subscription-form-content {
-  font-family: arial;
-  color: #29484f;
-  font-size: 12px;
+  color: $black;
+  font-size: 16px;
   text-align: left;
 }
 
@@ -88,9 +83,8 @@
   border: none;
   width: 100%;
   color: #ffffff;
-  background-color: $primary;
+  background-color: $action;
   font-size: 20px;
-  font-family: arial;
   cursor: pointer;
 }
 

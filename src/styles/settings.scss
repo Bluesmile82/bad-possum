@@ -1,2 +1,65 @@
+$black: #222;
 $primary: #F1E0C7;
+$action: #EB5E55;
 $grey: #555;
+$blue: #C9FBFF;
+
+.container {
+  margin: 0 auto;
+  width: 77.5%;
+}
+
+.inline {
+  display: inline;
+}
+
+$font-family-1: 'Playfair Display', serif;
+$font-family-2: 'Source Sans Pro', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1.1;
+  font-family: $font-family-1;
+}
+
+p {
+  font-family: $font-family-2;
+  line-height: 2.6;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin: 0.67em 0;
+  font-weight: bold;
+  margin-bottom: 1.45rem;
+}
+
+h2 {
+  margin-bottom: 1.45rem;
+  font-weight: bold;
+  font-size: 1.62671rem;
+}
+
+h3 {
+  margin-bottom: 1.45rem;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+h4 {
+  margin-bottom: 1.45rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+h5 {
+  margin-bottom: 1.45rem;
+  font-weight: bold;
+  font-size: 0.85028rem;
+}
+h6 {
+  margin-bottom: 1.45rem;
+  font-weight: bold;
+  font-size: 0.78405rem;
+}

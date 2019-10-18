@@ -5,11 +5,17 @@
   background-color: black;
   padding: 40px 0;
 
+  &:nth-child(even) {
+    background-color: $primary;
+    color: black;
+  }
+
   &.color-white {
     background-color: white;
   }
 
-  &:nth-child(even) {
+  &.color-brown {
     background-color: $primary;
+    color: black;
   }
 }

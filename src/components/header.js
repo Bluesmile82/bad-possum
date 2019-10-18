@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "../components/image"
+import "./header.scss"
 
 const Header = () => (
   <header
@@ -36,6 +37,7 @@ const Header = () => (
               }
             }}`)
           }
+          className="logo"
           alt="Bad Possum"
           />
         </Link>

@@ -1,0 +1,11 @@
+@import '../styles/settings.scss';
+
+.logo {
+  border-radius: 15%;
+
+  width: 100%;
+  @media screen and (min-width: 760px) {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
