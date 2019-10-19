@@ -5,7 +5,7 @@ const SenderForm = () => (
   <div className="sender-sub-main">
     <div className="sender-sub-inner">
       <div className="subscription-form">
-        <h4 className="dont-break-out">Subscríbete</h4>
+        <h4 className="dont-break-out">Suscríbete</h4>
           <div className="subscription-form-fields">
             <div className="subscription-form-content">
               Mantente al d&iacute;a con noticias, conciertos y promociones sobre Bad Possum

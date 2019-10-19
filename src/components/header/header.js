@@ -1,23 +1,13 @@
 import { Link } from "gatsby"
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "../components/image"
+import Image from "../image"
 import "./header.scss"
 
-const Header = () => (
-  <header
-    style={{
-      backgroundColor: `black`,
-    }}
-  >
+const Header = ({ hero }) => (
+  <header className="c-header">
     <div>
-      <Link
-        to="/"
-        style={{
-          color: `white`,
-          textDecoration: `none`,
-        }}
-      >
+      <Link to="/">
         <div className="logo-container">
           <Image
             data={useStaticQuery(graphql`
@@ -37,17 +27,27 @@ const Header = () => (
           />
         </div>
       </Link>
-      {/* <nav className="nav">
-        <ul className="nav-list">
-          <li>Música</li>
-          <li>Conciertos</li>
-          <li>Media</li>
-          <li>Bio</li>
-          <li>Prensa</li>
-          <li>Blog</li>
-          <li>Contacto</li>
-        </ul>
-      </nav> */}
+      <div className="menu-container">
+        <nav className="nav">
+          <ul className="nav-list">
+            <Link to="/">
+              <li>Home</li>
+            </Link>
+            {/* <li>Música</li>
+            <li>Conciertos</li>
+            <li>Media</li>
+            <li>Bio</li>
+            <li>Prensa</li> */}
+            {/* <Link to="/blog">
+              <li>Blog</li>
+            </Link> */}
+            <Link to="/contact">
+              <li>Contacto</li>
+            </Link>
+          </ul>
+        </nav>
+        {hero}
+      </div>
     </div>
   </header>
 )

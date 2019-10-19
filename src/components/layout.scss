@@ -57,6 +57,7 @@ body {
   word-wrap: break-word;
   font-kerning: normal;
 }
+
 img {
   max-width: 100%;
 }
@@ -69,4 +70,9 @@ p {
   html {
     font-size: 100%;
   }
+}
+
+.paragraph {
+  margin-bottom: 1.45rem;
+  line-height: 2.6;
 }
