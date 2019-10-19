@@ -8,7 +8,12 @@ const SenderForm = () => (
         <h4 className="dont-break-out">Suscríbete</h4>
           <div className="subscription-form-fields">
             <div className="subscription-form-content">
-              Mantente al d&iacute;a con noticias, conciertos y promociones sobre Bad Possum
+              <p>
+              Mantente al d&iacute;a con noticias, conciertos y promociones sobre Bad Possum.
+              </p>
+              <p>
+                Respetamos tu privacidad
+              </p>
             </div>
             <form id="sender-subscribe" action="https://app.sender.net/forms/sender_subscription/3898/93870c23" method="POST">
               <div className="subscription-form-fields" id="subscription-form-fields">

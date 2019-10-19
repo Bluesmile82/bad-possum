@@ -27,11 +27,16 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1.1;
   font-family: $font-family-1;
+  font-family: $font-family-1;
+}
+
+div {
+  font-family: $font-family-2;
 }
 
 p {
   font-family: $font-family-2;
-  line-height: 2.6;
+    margin-bottom: 1.45rem;
 }
 
 h1 {

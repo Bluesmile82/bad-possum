@@ -1,11 +1,22 @@
 import React from "react"
 import Layout from "../components/layout"
 import Section from "../components/section/section"
+import allTogether from "../images/alltogether.jpg"
 import "./index.scss"
+
+import { ParallaxBanner } from "react-scroll-parallax"
 
 const IndexPage = () => (
   <Layout disableFooter>
-    <Section color="red">
+    <ParallaxBanner
+      layers={[
+        {
+          image: allTogether,
+          amount: 0.2,
+        },
+      ]}
+    />
+    <Section>
       <div className="container contact">
         <form action="https://formspree.io/xjnqzvbx" method="POST">
           <h2>Contacta con nosotros</h2>

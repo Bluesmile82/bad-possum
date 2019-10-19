@@ -8,7 +8,9 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import './index.scss';
 import facebook from '../images/facebook.png';
-import insta from '../images/insta.jpeg';
+import insta from '../images/insta.jpeg'
+import allTogether from '../images/alltogether.jpg'
+import { ParallaxBanner } from "react-scroll-parallax"
 
 const IndexPage = () => (
   <Layout
@@ -68,6 +70,16 @@ const IndexPage = () => (
       </div>
     </Section>
     <Section>
+      <ParallaxBanner
+        layers={[
+          {
+            image: allTogether,
+            amount: 0.2,
+          },
+        ]}
+      />
+    </Section>
+    <Section color="brown">
       <div className="container">
         <div className="paragraph">
           <h1 className="inline">Bad Possum</h1> es un grupo con influencias que

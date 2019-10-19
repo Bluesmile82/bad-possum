@@ -27,7 +27,6 @@
 
 .contact {
   text-align: center;
-  height: calc(100vh - #{$nav-height});
 
   @media screen and (min-width: $breakpoint-mobile) {
     width: 45%;
