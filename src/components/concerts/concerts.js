@@ -14,6 +14,7 @@ const Concerts = data => (
                 place
                 link
                 city
+                upcoming
               }
             }
           }
@@ -23,7 +24,7 @@ const Concerts = data => (
         <div className="container">
           <ul>
             <h3 className="grunge white-color center">Próximos conciertos</h3>
-            {data.allConcertsJson.edges.map(item => (
+            {data.allConcertsJson.edges.filter(i => i.node.upcoming).map(item => (
               <li className="center" key={item.node.date}>
                 <span className="grunge little white-color">
                   {item.node.date}

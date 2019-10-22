@@ -3,6 +3,37 @@
    "date": "20/12/19",
    "place": "El Intruso",
    "city": "Madrid",
-   "link": "http://www.intrusobar.com/"
+   "link": "http://www.intrusobar.com/",
+   "upcoming": true
+  },
+  {
+   "date": "4/3/19",
+   "place": "El Torito",
+   "city": "Madrid",
+   "upcoming": false
+  },
+  {
+   "date": "7/4/19",
+   "place": "Gruta 77",
+   "city": "Madrid",
+   "upcoming": false
+  },
+  {
+   "date": "7/4/19",
+   "place": "Gruta 77",
+   "city": "Madrid",
+   "upcoming": false
+  },
+  {
+   "date": "20/9/19",
+   "place": "Previo festival de Blues de Moratalaz",
+   "city": "Madrid",
+   "upcoming": false
+  },
+  {
+   "date": "27/9/19",
+   "place": "Previo festival de Blues de Moratalaz",
+   "city": "Madrid",
+   "upcoming": false
   }
 ]
