@@ -4,6 +4,22 @@
   margin-top: 0;
 }
 
+.band-name {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+  justify-content: center;
+  margin-bottom: 5px;
+
+  > span, h3 {
+    margin-left: 10px;
+  }
+
+  @media screen and (min-width: $breakpoint-mobile) {
+    flex-direction: row;
+  }
+}
+
 .videos {
   margin: 0 10%;
 }

@@ -36,10 +36,12 @@ const IndexPage = () => (
     <Section color="brown">
       <div className="container">
         <h1 className="grunge big action-color bad-possum-title">Bad Possum</h1>
-        <div className="grunge right margin-bottom">es F*ckin Hill Country Blues</div>
+        <div className="grunge right margin-bottom">
+          es F*ckin Hill Country Blues
+        </div>
         <div className="grunge little">
-          En sus conciertos nos llevan a los Juke Joint de la zona de Hill country en el estado de
-          Mississippi donde lo único que importaba era{" "}
+          En sus conciertos nos llevan a los Juke Joint de la zona de Hill
+          country en el estado de Mississippi donde lo único que importa es{" "}
           <span className="grunge action-color">
             pasarlo bien, gritar y saltar.
           </span>
@@ -82,21 +84,21 @@ const IndexPage = () => (
     </Section>
     <Section color="red">
       <div className="container">
-        <div className="grunge little center">
-          <h3 className="grunge inline black-color">Álvaro Leal </h3>a la
-          guitarra y voz
+        <div className="grunge little center band-name">
+          <h3 className="grunge inline black-color">Álvaro Leal </h3>{" "}
+          <span>a la guitarra y voz</span>{" "}
         </div>
-        <div className="grunge little center">
-          a la armónica y voz,{" "}
-          <h3 className="grunge inline right black-color">Víctor Barceló,</h3>
+        <div className="grunge little center band-name">
+          <span>a la armónica y voz </span>{" "}
+          <h3 className="grunge inline right black-color">Víctor Barceló</h3>
         </div>
-        <div className="grunge little center">
-          <h3 className="grunge inline black-color">Gabi Torné</h3> a la
-          guitarra,{" "}
+        <div className="grunge little center band-name">
+          <h3 className="grunge inline black-color">Gabi Torné</h3>
+          <span>a la guitarra </span>
         </div>
-        <div className="grunge little center">
-          A la batería{" "}
-          <h3 className="grunge inline black-color">Elvira Sodalita.</h3>
+        <div className="grunge little center band-name">
+          <span>A la batería </span>
+          <h3 className="grunge inline black-color">Elvira Sodalita</h3>
         </div>
       </div>
     </Section>
@@ -111,13 +113,13 @@ const IndexPage = () => (
     <Section color="brown">
       <div className="container">
         <div className="grunge little">
-          En su repertorio interpretan a <span className="grunge little action-color">
-          R.L Burnside, Junior Kimbrough, Asie
-          Payton o T-Model Ford</span> además de sus propias canciones.
+          En su repertorio interpretan a{" "}
+          <span className="grunge little action-color">
+            R.L Burnside, Junior Kimbrough, Asie Payton o T-Model Ford
+          </span>{" "}
+          además de sus propias canciones.
         </div>
-        <div className="grunge center big action-color">
-          Vas a bailar.
-        </div>
+        <div className="grunge center big action-color">Vas a bailar.</div>
       </div>
     </Section>
     <Section color="red">
