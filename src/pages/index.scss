@@ -1,5 +1,9 @@
 @import '../styles/settings.scss';
 
+.bad-possum-title {
+  margin-top: 0;
+}
+
 .videos {
   margin: 0 10%;
 }
@@ -35,19 +39,6 @@
 
 .name {
   font-family: $font-family-2;
-}
-
-.social-links {
-  text-align: right;
-
-  :not(:first-child) {
-    margin-left: 15px;
-  }
-
-  .social-link {
-    width: 50px;
-    border-radius: 15%;
-  }
 }
 
 .video-container {

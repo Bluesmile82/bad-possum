@@ -1,7 +1,9 @@
 @import '../../styles/settings.scss';
 
 .subscription-form .checkbox_label {
-  font-family: $font-family-2;
+  * {
+    font-family: $font-family-2;
+  }
 }
 
 .checkbox_wrapper {

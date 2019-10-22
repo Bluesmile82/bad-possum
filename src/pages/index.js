@@ -3,12 +3,10 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Section from "../components/section/section"
-// import Concerts from "../components/concerts/concerts"
+import Concerts from "../components/concerts/concerts"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import './index.scss';
-import facebook from '../images/facebook.png';
-import insta from '../images/insta.jpeg'
 import allTogether from '../images/alltogether.jpg'
 import { ParallaxBanner } from "react-scroll-parallax"
 
@@ -34,8 +32,21 @@ const IndexPage = () => (
       />
     }
   >
-    <SEO title="Home" />
+    <SEO title="Bad Possum" />
     <Section color="brown">
+      <div className="container">
+        <h1 className="grunge big action-color bad-possum-title">Bad Possum</h1>
+        <div className="grunge right margin-bottom">es Hill Country Blues</div>
+        <div className="grunge little">
+          En sus conciertos nos llevan a los Juke Joint del estado del
+          Mississippi donde lo único que importaba era{" "}
+          <span className="grunge action-color">
+            pasarlo bien, gritar y saltar.
+          </span>
+        </div>
+      </div>
+    </Section>
+    <Section color="black">
       <div className="videos">
         <div className="video-padding">
           <div className="video-container">
@@ -69,59 +80,49 @@ const IndexPage = () => (
         </div>
       </div>
     </Section>
-    <Section>
-      <ParallaxBanner
-        layers={[
-          {
-            image: allTogether,
-            amount: 0.2,
-          },
-        ]}
-      />
-    </Section>
-    <Section color="brown">
+    <Section color="red">
       <div className="container">
-        <div className="paragraph">
-          <h1 className="inline">Bad Possum</h1> es un grupo con influencias que
-          vienen del North Hill Mississippi Country Blues. En sus conciertos nos
-          llevan a los Juke Joint del estado del Mississippi donde lo único que
-          importaba era pasarlo bien, gritar, bailar y saltar. La banda formada
-          en Madrid está compuesta por{" "}
-          <h3 className="inline name">Elvira Sodalita</h3> a la batería,{" "}
-          <h3 className="inline name">Gabi Torné</h3> a la guitarra,{" "}
-          <h3 className="inline name">Víctor Barceló</h3> a la armónica y voz y{" "}
-          <h3 className="inline name">Álvaro Leal </h3>a la guitarra y voz.
+        <div className="grunge little center">
+          <h3 className="grunge inline black-color">Álvaro Leal </h3>a la
+          guitarra y voz
         </div>
-        <div className="paragraph">
-          En su repertorio se entremezclan canciones de músicos grabados por la
-          discográfica Fat Possum como R.L Burnside, Junior Kimbrough, Asie
-          Payton o T-Model Ford. También presentan sus propias composiciones
-          claramente influidas por el género. El espectáculo derrocha energía de
-          principio a fin con poco tiempo de aliento para la audiencia, que se
-          verá obligada a bailar al ritmo de este blues con tendencias rock y
-          punk del que bebieron otros artistas, como The Black Keys.
+        <div className="grunge little center">
+          a la armónica y voz{" "}
+          <h3 className="grunge inline right black-color">Víctor Barceló,</h3>
         </div>
-        <div className="social-links">
-          <a
-            href="https://www.facebook.com/BadPossum"
-            target="_blank"
-            title="facebook link"
-          >
-            <img className="social-link" src={facebook} title="facebook link" />
-          </a>
-          <a
-            href="https://www.instagram.com/bad.possum/"
-            target="_blank"
-            title="instagram link"
-          >
-            <img className="social-link" src={insta} title="instagram link" />
-          </a>
+        <div className="grunge little center">
+          <h3 className="grunge inline black-color">Gabi Torné</h3> a la
+          guitarra,{" "}
+        </div>
+        <div className="grunge little center">
+          A la batería{" "}
+          <h3 className="grunge inline black-color">Elvira Sodalita.</h3>
         </div>
       </div>
     </Section>
-    {/* <Section>
+    <ParallaxBanner
+      layers={[
+        {
+          image: allTogether,
+          amount: 0.2,
+        },
+      ]}
+    />
+    <Section color="brown">
+      <div className="container">
+        <div className="grunge little">
+          En su repertorio interpretan a <span className="grunge little action-color">
+          R.L Burnside, Junior Kimbrough, Asie
+          Payton o T-Model Ford</span> además de sus propias canciones.
+        </div>
+        <div className="grunge center big action-color">
+          Vas a bailar.
+        </div>
+      </div>
+    </Section>
+    <Section color="red">
       <Concerts />
-    </Section> */}
+    </Section>
   </Layout>
 )
 

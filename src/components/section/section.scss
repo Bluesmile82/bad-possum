@@ -7,7 +7,7 @@
 
   &:nth-child(even) {
     background-color: $primary;
-    color: black;
+    color: $black;
   }
 
   &.color-red {
@@ -20,6 +20,11 @@
 
   &.color-brown {
     background-color: $primary;
-    color: black;
+    color: $black;
+  }
+
+  &.color-black {
+    background-color: black;
+    color: $white;
   }
 }
