@@ -36,9 +36,9 @@ const IndexPage = () => (
     <Section color="brown">
       <div className="container">
         <h1 className="grunge big action-color bad-possum-title">Bad Possum</h1>
-        <div className="grunge right margin-bottom">es Hill Country Blues</div>
+        <div className="grunge right margin-bottom">es F*ckin Hill Country Blues</div>
         <div className="grunge little">
-          En sus conciertos nos llevan a los Juke Joint del estado del
+          En sus conciertos nos llevan a los Juke Joint de la zona de Hill country en el estado de
           Mississippi donde lo único que importaba era{" "}
           <span className="grunge action-color">
             pasarlo bien, gritar y saltar.
@@ -87,7 +87,7 @@ const IndexPage = () => (
           guitarra y voz
         </div>
         <div className="grunge little center">
-          a la armónica y voz{" "}
+          a la armónica y voz,{" "}
           <h3 className="grunge inline right black-color">Víctor Barceló,</h3>
         </div>
         <div className="grunge little center">
