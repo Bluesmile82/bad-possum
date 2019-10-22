@@ -35,6 +35,9 @@ const Header = ({ hero }) => (
             <Link to="/">
               <li>Home</li>
             </Link>
+            <Link to="/concerts">
+              <li>Conciertos</li>
+            </Link>
             {/* <li>Música</li>
             <li>Conciertos</li>
             <li>Media</li>
@@ -52,10 +55,7 @@ const Header = ({ hero }) => (
               title="facebook link"
               className="social-link"
             >
-              <img
-                src={facebook}
-                title="facebook link"
-              />
+              <img src={facebook} title="facebook link" />
             </a>
             <a
               href="https://www.instagram.com/bad.possum/"
@@ -63,10 +63,7 @@ const Header = ({ hero }) => (
               title="instagram link"
               className="social-link"
             >
-              <img
-                src={insta}
-                title="instagram link"
-              />
+              <img src={insta} title="instagram link" />
             </a>
           </ul>
         </nav>
