@@ -3,7 +3,7 @@ module.exports = {
     title: `Bad Possum`,
     description: `Bad possum is a Hill Country Blues band from Madrid Spain`,
     author: `Alvaro Leal`,
-    url: 'https://www.badpossumband.com'
+    siteUrl: `https://www.badpossumband.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -40,11 +40,35 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: [`/admin`, `/tags/links`],
+        resolve: `gatsby-plugin-sitemap`,
+        options: {
+          output: `/sitemap.xml`,
+          query: `
+            {
+              site {
+                siteMetadata {
+                  siteUrl
+                }
+              }
+
+              allSitePage {
+                edges {
+                  node {
+                    path
+                  }
+                }
+              }
+          }`,
+          serialize: ({ site, allSitePage }) =>
+            allSitePage.edges.map(edge => {
+              return {
+                url: site.siteMetadata.siteUrl + edge.node.path,
+                changefreq: `weekly`,
+                priority: 0.7,
+              }
+            })
+        }
       },
-    },
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
