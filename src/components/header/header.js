@@ -52,6 +52,7 @@ const Header = ({ hero }) => (
             <a
               href="https://www.facebook.com/BadPossum"
               target="_blank"
+              rel="noopener noreferrer"
               title="facebook link"
               className="social-link"
             >
@@ -60,6 +61,7 @@ const Header = ({ hero }) => (
             <a
               href="https://www.instagram.com/bad.possum/"
               target="_blank"
+              rel="noopener noreferrer"
               title="instagram link"
               className="social-link"
             >

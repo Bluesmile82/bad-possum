@@ -36,6 +36,7 @@ const Concerts = ({ all }) => (
                   <a
                     href={item.node.link}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="grunge little"
                   >
                     {item.node.place}
@@ -46,7 +47,9 @@ const Concerts = ({ all }) => (
           </ul>
           {all && (
             <ul className="past-concerts">
-              <h3 className="grunge white-color center">Anteriores conciertos</h3>
+              <h3 className="grunge white-color center">
+                Anteriores conciertos
+              </h3>
               {data.allConcertsJson.edges
                 .filter(i => !i.node.upcoming)
                 .map(item => (
@@ -57,6 +60,7 @@ const Concerts = ({ all }) => (
                     <a
                       href={item.node.link}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="grunge little"
                     >
                       {item.node.place}
