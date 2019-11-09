@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Permanent Marker`, `Varela\:300,400,400i,700`],
+        fonts: [`Permanent Marker`, `Overpass\:300,400,400i,700`],
         display: "swap",
       },
     },
@@ -40,10 +40,10 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-        resolve: `gatsby-plugin-sitemap`,
-        options: {
-          output: `/sitemap.xml`,
-          query: `
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        query: `
             {
               site {
                 siteMetadata {
@@ -59,16 +59,16 @@ module.exports = {
                 }
               }
           }`,
-          serialize: ({ site, allSitePage }) =>
-            allSitePage.edges.map(edge => {
-              return {
-                url: site.siteMetadata.siteUrl + edge.node.path,
-                changefreq: `weekly`,
-                priority: 0.7,
-              }
-            })
-        }
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(edge => {
+            return {
+              url: site.siteMetadata.siteUrl + edge.node.path,
+              changefreq: `weekly`,
+              priority: 0.7,
+            }
+          }),
       },
+    },
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
@@ -118,5 +118,11 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-stripe`,
+      options: {
+        async: true,
+      },
+    }
   ],
 }

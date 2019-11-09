@@ -38,17 +38,18 @@ const Header = ({ hero }) => (
             <Link to="/concerts">
               <li>Conciertos</li>
             </Link>
-            {/* <li>Música</li>
-            <li>Conciertos</li>
-            <li>Media</li>
+            {/* <Link to="/music">
+              <li>Música</li>
+            </Link> */}
+            <Link to="/contact">
+              <li>Contacto</li>
+            </Link>
+            {/* <li>Media</li>
             <li>Bio</li>
             <li>Prensa</li> */}
             {/* <Link to="/blog">
               <li>Blog</li>
             </Link> */}
-            <Link to="/contact">
-              <li>Contacto</li>
-            </Link>
             <a
               href="https://www.facebook.com/BadPossum"
               target="_blank"

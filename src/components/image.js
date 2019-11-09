@@ -13,7 +13,7 @@ const Image = props => {
       },
     }
   }
-  return <Img fluid={props.data.placeholderImage.childImageSharp.fluid} {...normalizedProps} />
+  return <Img fluid={props.data.placeholderImage.childImageSharp.fluid} {...normalizedProps} alt={props.alt} />
 }
 
 export default Image
