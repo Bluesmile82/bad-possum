@@ -40,7 +40,7 @@ const IndexPage = () => (
           es F*ckin Hill Country Blues
         </div>
         <div className="grunge little">
-          En sus conciertos nos llevan a los Juke Joint de la zona de Hill
+          En nuestros conciertos transportamos a los Juke Joint de la zona de Hill
           country en el estado de Mississippi donde lo único que importa es{" "}
           <span className="grunge action-color">
             pasarlo bien, gritar y saltar.
@@ -113,11 +113,11 @@ const IndexPage = () => (
     <Section color="brown">
       <div className="container">
         <div className="grunge little">
-          En su repertorio interpretan a{" "}
+          En nuestro repertorio interpretamos a{" "}
           <span className="grunge little action-color">
             R.L Burnside, Junior Kimbrough, Asie Payton o T-Model Ford
           </span>{" "}
-          además de sus propias canciones.
+          además de nuestras propias canciones.
         </div>
         <div className="grunge center big action-color">Vas a bailar.</div>
       </div>

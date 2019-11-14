@@ -38,9 +38,9 @@ const Header = ({ hero }) => (
             <Link to="/concerts">
               <li>Conciertos</li>
             </Link>
-            {/* <Link to="/music">
+            <Link to="/music">
               <li>Música</li>
-            </Link> */}
+            </Link>
             <Link to="/contact">
               <li>Contacto</li>
             </Link>

@@ -1,15 +1,16 @@
 @import '../../styles/settings.scss';
+.c-concerts {
+  a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: $primary;
 
-a {
-  margin-left: 10px;
-  text-decoration: none;
-  color: $primary;
-
-  &:hover {
-    color: $blue;
+    &:hover {
+      color: $blue;
+    }
   }
-}
 
-.past-concerts {
-  margin-top: 4rem;
+  .past-concerts {
+    margin-top: 4rem;
+  }
 }
