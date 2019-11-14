@@ -70,9 +70,12 @@
 
         > li {
           color: $white;
-          font-size: 0.9rem;
           font-weight: bold;
           padding-top: 2px;
+          font-size: 1.1rem;
+          @media screen and (min-width: 760px) {
+            font-size: 0.9rem;
+          }
 
           &:hover {
             color: $action;
