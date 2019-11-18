@@ -104,8 +104,7 @@ const IndexPage = () => {
               </div>
               <p>El disco está a la venta en formato digital.</p>
               <p>
-                En caso de querer el CD físico primero compra el disco en
-                digital y sigue las instrucciones que se detallan.
+                El CD físico estará disponible en enero de 2020. En caso de quererlo puedes reservar uno escribiendonos a badpossumband@gmail.com.
               </p>
               <a
                 href="https://app.simplegoods.co/i/DQDWHFUW"
@@ -122,3 +121,5 @@ const IndexPage = () => {
 };
 
 export default IndexPage
+
+<script type="text/javascript" src="https://app-cdn.simplegoods.co/assets/external/embed-485d19e15c0d820b38f2851a2490d28cacbb489e8ec728bb882843aaf50c14f0.js"></script><a href="https://app.simplegoods.co/i/DQDWHFUW" class="simple-goods-btn" style="background-color:#2166ff ">Buy Now </a>
