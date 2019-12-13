@@ -35,5 +35,19 @@
    "place": "Previo festival de Blues de Moratalaz",
    "city": "Madrid",
    "upcoming": false
+  },
+  {
+   "date": "20200404",
+   "place": "Moe Club",
+   "city": "Madrid",
+   "link": "http://moeclub.com/",
+   "upcoming": true
+  },
+  {
+   "date": "20200412",
+   "place": "7 rock bar",
+   "city": "Parla, Madrid",
+   "link": "https://www.facebook.com/pages/category/Pub/7-Rock-Bar-190495450978001/",
+   "upcoming": true
   }
 ]
