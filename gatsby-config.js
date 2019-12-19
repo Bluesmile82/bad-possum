@@ -75,7 +75,7 @@ module.exports = {
         host: 'https://www.badpossumband.com',
         env: {
           development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }]
+            policy: [{ userAgent: '*', allow: '/' }]
           },
           production: {
             policy: [{ userAgent: '*', allow: '/' }]
