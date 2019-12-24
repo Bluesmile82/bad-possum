@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, StaticQuery } from "gatsby"
+import moment from "moment-with-locales-es6"
 import "./concerts.scss"
 
 const query = graphql`
@@ -7,7 +8,7 @@ const query = graphql`
     allConcertsJson(sort: { order: DESC, fields: [date] }) {
       edges {
         node {
-          date(formatString: "DD MMMM YY", locale: "es-ES")
+          date
           place
           link
           city
@@ -27,11 +28,14 @@ const Concerts = ({ all }) => (
           <ul>
             <h3 className="grunge white-color center">Próximos conciertos</h3>
             {data.allConcertsJson.edges
-              .filter(i => i.node.upcoming)
+              .filter(i => moment() < new moment(i.node.date))
+              .reverse()
               .map(item => (
                 <li className="center" key={item.node.date}>
                   <span className="grunge little white-color">
-                    {item.node.date}
+                    {moment(item.node.date)
+                      .locale("es")
+                      .format("LL")}
                   </span>{" "}
                   <a
                     href={item.node.link}
@@ -51,11 +55,13 @@ const Concerts = ({ all }) => (
                 Anteriores conciertos
               </h3>
               {data.allConcertsJson.edges
-                .filter(i => !i.node.upcoming)
+                .filter(i => moment() > new moment(i.node.date))
                 .map(item => (
                   <li className="center" key={item.node.date}>
                     <span className="grunge little white-color">
-                      {item.node.date}
+                      {moment(item.node.date)
+                        .locale("es")
+                        .format("LL")}
                     </span>{" "}
                     <a
                       href={item.node.link}

@@ -1,53 +1,45 @@
 [
   {
+   "date": "20200315",
+   "place": "Taberna Alabanda - Jam SBM",
+   "city": "Madrid",
+   "link": "https://www.facebook.com/CafeTabernaAlabanda/"
+  },
+  {
    "date": "20191220",
    "place": "El Intruso",
    "city": "Madrid",
-   "link": "http://www.intrusobar.com/",
-   "upcoming": true
+   "link": "http://www.intrusobar.com/"
   },
   {
    "date": "20190304",
    "place": "El Torito",
-   "city": "Madrid",
-   "upcoming": false
+   "city": "Madrid"
   },
   {
    "date": "20190407",
    "place": "Gruta 77",
-   "city": "Madrid",
-   "upcoming": false
+   "city": "Madrid"
   },
   {
    "date": "20190726",
    "place": "Gruta 77",
-   "city": "Madrid",
-   "upcoming": false
+   "city": "Madrid"
   },
   {
    "date": "20190920",
    "place": "Previo festival de Blues de Moratalaz",
-   "city": "Madrid",
-   "upcoming": false
+   "city": "Madrid"
   },
   {
    "date": "20190927",
    "place": "Previo festival de Blues de Moratalaz",
-   "city": "Madrid",
-   "upcoming": false
-  },
-  {
-   "date": "20200404",
-   "place": "Moe Club",
-   "city": "Madrid",
-   "link": "http://moeclub.com/",
-   "upcoming": true
+   "city": "Madrid"
   },
   {
    "date": "20200412",
    "place": "7 rock bar",
    "city": "Parla, Madrid",
-   "link": "https://www.facebook.com/pages/category/Pub/7-Rock-Bar-190495450978001/",
-   "upcoming": true
+   "link": "https://www.facebook.com/pages/category/Pub/7-Rock-Bar-190495450978001/"
   }
 ]
