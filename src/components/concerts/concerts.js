@@ -12,7 +12,6 @@ const query = graphql`
           place
           link
           city
-          upcoming
         }
       }
     }
