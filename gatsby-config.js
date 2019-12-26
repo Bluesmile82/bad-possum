@@ -72,15 +72,9 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://www.badpossumband.com',
-        env: {
-          development: {
-            policy: [{ userAgent: '*', allow: '/' }]
-          },
-          production: {
-            policy: [{ userAgent: '*', allow: '/' }]
-          }
-        }
+        host: "https://www.badpossumband.com",
+        sitemap: "https://www.badpossumband.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }]
       },
     },
     {
