@@ -3,55 +3,72 @@
    "date": "20200329",
    "place": "Taberna Alabanda - Jam SBM",
    "city": "Madrid",
+   "hour": "",
    "link": "https://www.facebook.com/CafeTabernaAlabanda/"
   },
   {
    "date": "20191220",
    "place": "El Intruso",
    "city": "Madrid",
+   "hour": "",
    "link": "http://www.intrusobar.com/"
   },
   {
    "date": "20190304",
    "place": "El Torito",
-   "city": "Madrid"
+   "city": "Madrid",
+   "hour": ""
   },
   {
    "date": "20190407",
    "place": "Gruta 77",
-   "city": "Madrid"
+   "city": "Madrid",
+   "hour": ""
   },
   {
    "date": "20190726",
    "place": "Gruta 77",
-   "city": "Madrid"
+   "city": "Madrid",
+   "hour": ""
   },
   {
    "date": "20190920",
    "place": "Previo festival de Blues de Moratalaz",
-   "city": "Madrid"
+   "city": "Madrid",
+   "hour": ""
   },
   {
    "date": "20190927",
    "place": "Previo festival de Blues de Moratalaz",
-   "city": "Madrid"
+   "city": "Madrid",
+   "hour": ""
   },
   {
    "date": "20200412",
    "place": "7 rock bar",
    "city": "Parla, Madrid",
+   "hour": "",
    "link": "https://www.facebook.com/pages/category/Pub/7-Rock-Bar-190495450978001/"
   },
   {
    "date": "20200502",
    "place": "Sala Moe",
    "city": "Madrid",
+   "hour": "",
    "link": "https://http://moeclub.com/"
   },
   {
    "date": "20200509",
    "place": "Cervecería El traste",
    "city": "Madrid",
+   "hour": "",
    "link": "https://www.facebook.com/pages/category/Bar/Cervecer%C3%ADa-Eltraste-447762139139323/"
+  },
+  {
+   "date": "20200517",
+   "place": "Fun House",
+   "city": "Madrid",
+   "hour": "19:30",
+   "link": "https://www.funhousemusicbar.com/"
   }
 ]

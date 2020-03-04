@@ -9,6 +9,7 @@ const query = graphql`
       edges {
         node {
           date
+          hour
           place
           link
           city
@@ -30,11 +31,15 @@ const Concerts = ({ all }) => (
               .filter(i => moment() < new moment(i.node.date))
               .reverse()
               .map(item => (
-                <li className="center" key={item.node.date}>
+                <li className="concert" key={item.node.date}>
                   <span className="grunge little white-color">
+                    {"➡️ "}
                     {moment(item.node.date)
                       .locale("es")
-                      .format("LL")}
+                      .format("ddd LL")}
+                  </span>{" "}
+                  <span className="grunge little white-color">
+                    {item.node.hour ? `- ${item.node.hour} h -` : ""}
                   </span>{" "}
                   <a
                     href={item.node.link}
@@ -56,8 +61,9 @@ const Concerts = ({ all }) => (
               {data.allConcertsJson.edges
                 .filter(i => moment() > new moment(i.node.date))
                 .map(item => (
-                  <li className="center" key={item.node.date}>
+                  <li className="concert" key={item.node.date}>
                     <span className="grunge little white-color">
+                      {"✔️ "}
                       {moment(item.node.date)
                         .locale("es")
                         .format("LL")}
